@@ -9,9 +9,8 @@ export default function AppRoutes() {
           <Route
             index
             element={
-              <div>
-                <h1 className='text-3xl font-bold underline'>Hello world!</h1>
-                <button className='btn btn-primary'>Hello</button>
+              <div className='p-5'>
+                <p className='text-3xl font-bold'>Hi there! 👋</p>
               </div>
             }
           />
